@@ -4,6 +4,7 @@ header{
     justify-content: space-between;
     padding: 0 24px;
     border-bottom: 1px solid var(--grey);
+    height: 60px;
 }
 .menu{
     display: none;
@@ -36,23 +37,7 @@ header{
     border-radius: 8px;
     padding: 8px;
 }
-/*Fin de estilos header*/
 
-/*Footer*/
-footer{
-    height: 60px;
-    background-color: var(--teal);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    bottom: 0;
-}
-footer a{
-    text-decoration: none;
-    color: var(--cold);
-
-}
 @media (max-width: 640px) {
     /*Estilos para el header */
     .menu{

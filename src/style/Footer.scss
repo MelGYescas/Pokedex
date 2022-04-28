@@ -1,0 +1,17 @@
+@import 'vars';
+
+footer{
+    height: 60px;
+    background-color: var(--teal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: var(--cold);
+
+}

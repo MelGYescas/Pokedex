@@ -1,7 +1,7 @@
 import React from 'react';
-import '../style/Headerfooter.scss';
+import '../style/Header.scss';
 
-const Headerfooter = () =>{
+const Header = () =>{
     return(
         <div>
             <header>
@@ -15,12 +15,9 @@ const Headerfooter = () =>{
                 </ul>
                 </div>
             </header>
-            <footer>
-                <p>Hecho con ❤ <a href="https://github.com/MelGYescas">Mariel G Yescas</a></p>
-            </footer>
         </div>
 
     );
 }
 
-export default Headerfooter;
+export default Header;
