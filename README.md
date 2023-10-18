@@ -1,2 +1,2 @@
 # Pokedex
-Prueba técnica
+Este e un pokedex
